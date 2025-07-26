@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hangman Game</title>
+
+    <!-- Bootstrap -->
+    <link
+      href="./bootstrap-5.3.7-dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="container py-5 text-center">
+      <h1 class="mb-4">🎯 Hangman Game</h1>
+
+      <div id="stickman" class="my-4"></div>
+
+      <h3 id="word-display" class="display-5 mb-3">_ _ _ _</h3>
+      <p id="status-message" class="fs-4 mb-2 btn-dark"></p>
+
+      <div
+        id="letters-container"
+        class="d-flex flex-wrap justify-content-center gap-2 mb-4"
+      ></div>
+
+     
+        🕒 Attempts left:
+        <span id="attempts-left" class="text-warning btn btn-dark fw-bold">8</span>
+      </p>
+
+      <button id="restart-btn" class="btn btn-dark mt-3">
+        🔁 Restart Game
+      </button>
+    </div>
+
+    <script src="fundamentals.js"></script>
+    <script src="./bootstrap-5.3.7-dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
