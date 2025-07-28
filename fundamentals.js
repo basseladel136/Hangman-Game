@@ -1,4 +1,4 @@
- document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", () => {
       const wordDisplayEl = document.getElementById("word-display");
       const lettersContainer = document.getElementById("letters-container");
       const attemptsLeftEl = document.getElementById("attempts-left");
